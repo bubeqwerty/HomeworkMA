@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1502CBD21EBA440D009E719E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502CBD11EBA440D009E719E /* CameraViewController.swift */; };
+		151234471EB92094007CA457 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151234461EB92094007CA457 /* WeatherViewController.swift */; };
+		151FB7181EBBB7D300DA5F95 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FB7171EBBB7D300DA5F95 /* TwitterViewController.swift */; };
+		1524386C1EBE2C6200BDD466 /* MapiLokacijaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524386A1EBE2C6200BDD466 /* MapiLokacijaViewController.swift */; };
+		1524386D1EBE2C6200BDD466 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524386B1EBE2C6200BDD466 /* PinAnnotation.swift */; };
+		1547874A1EB919B90031685A /* HamburgerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154787491EB919B90031685A /* HamburgerTableViewController.swift */; };
+		15C7716F1EBDB412005EAE36 /* InformaciiPoplakiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7716E1EBDB412005EAE36 /* InformaciiPoplakiViewController.swift */; };
+		15C771731EBDBF25005EAE36 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C771721EBDBF25005EAE36 /* PopViewController.swift */; };
+		2103C5551EADE370005AC1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2103C5541EADE370005AC1AF /* AppDelegate.swift */; };
+		2103C55D1EADE370005AC1AF /* Domashna_SB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2103C55B1EADE370005AC1AF /* Domashna_SB.xcdatamodeld */; };
+		2103C55F1EADE370005AC1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2103C55E1EADE370005AC1AF /* Assets.xcassets */; };
+		2103C5621EADE370005AC1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2103C5601EADE370005AC1AF /* LaunchScreen.storyboard */; };
+		2103C56C1EADE617005AC1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2103C5691EADE617005AC1AF /* ViewController.swift */; };
+		2103C56D1EADE617005AC1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2103C56A1EADE617005AC1AF /* Main.storyboard */; };
+		218A782C1EB0BAD400F54F9D /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A782B1EB0BAD400F54F9D /* GCDViewController.swift */; };
+		219EA7E01EB0A21900F1F5C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219EA7DF1EB0A21900F1F5C0 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		219EA7E21EB0A26900F1F5C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219EA7E11EB0A26900F1F5C0 /* CoreLocation.framework */; };
+		AEE7A1A5CC47A514C617373A /* Pods_Domashna_SB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1790BFE5C47E460DA8F685DE /* Pods_Domashna_SB.framework */; };
+		B5352FDD1EBB49F6004B73C9 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5352FDC1EBB49F6004B73C9 /* ContactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A4540A1EEB43B5003EA542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A454041EEB43B5003EA542 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F4675546BB631BC9FFD52971A4C0E95;
+			remoteInfo = Alamofire;
+		};
+		21A4540C1EEB43B5003EA542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A454041EEB43B5003EA542 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC1DBDA14C048B019A9D435897078A84;
+			remoteInfo = MMDrawerController;
+		};
+		21A4540E1EEB43B5003EA542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A454041EEB43B5003EA542 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCC54AFAE89A7923251A75B6B0A4B88C;
+			remoteInfo = "Pods-Domashna SB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1502CBD11EBA440D009E719E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		151234461EB92094007CA457 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		151FB7171EBBB7D300DA5F95 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		1524386A1EBE2C6200BDD466 /* MapiLokacijaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapiLokacijaViewController.swift; sourceTree = "<group>"; };
+		1524386B1EBE2C6200BDD466 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		154787491EB919B90031685A /* HamburgerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerTableViewController.swift; sourceTree = "<group>"; };
+		15C7716E1EBDB412005EAE36 /* InformaciiPoplakiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformaciiPoplakiViewController.swift; sourceTree = "<group>"; };
+		15C771721EBDBF25005EAE36 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		1790BFE5C47E460DA8F685DE /* Pods_Domashna_SB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domashna_SB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2103C5511EADE370005AC1AF /* Domashna SB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domashna SB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2103C5541EADE370005AC1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2103C55C1EADE370005AC1AF /* Domashna_SB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Domashna_SB.xcdatamodel; sourceTree = "<group>"; };
+		2103C55E1EADE370005AC1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2103C5611EADE370005AC1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2103C5691EADE617005AC1AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		2103C56A1EADE617005AC1AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		2103C56F1EADE65A005AC1AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218A782B1EB0BAD400F54F9D /* GCDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
+		219EA7DF1EB0A21900F1F5C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		219EA7E11EB0A26900F1F5C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21A454041EEB43B5003EA542 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		B5352FDC1EBB49F6004B73C9 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		B855B633AABB67024D419A54 /* Pods-Domashna SB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domashna SB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domashna SB/Pods-Domashna SB.debug.xcconfig"; sourceTree = "<group>"; };
+		EC63AF1776FBAC3EE3E8276B /* Pods-Domashna SB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domashna SB.release.xcconfig"; path = "Pods/Target Support Files/Pods-Domashna SB/Pods-Domashna SB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2103C54E1EADE36F005AC1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219EA7E21EB0A26900F1F5C0 /* CoreLocation.framework in Frameworks */,
+				219EA7E01EB0A21900F1F5C0 /* MapKit.framework in Frameworks */,
+				AEE7A1A5CC47A514C617373A /* Pods_Domashna_SB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB3185E64990E516F86563A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219EA7E11EB0A26900F1F5C0 /* CoreLocation.framework */,
+				219EA7DF1EB0A21900F1F5C0 /* MapKit.framework */,
+				1790BFE5C47E460DA8F685DE /* Pods_Domashna_SB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		152438691EBE2A9400BDD466 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1524386B1EBE2C6200BDD466 /* PinAnnotation.swift */,
+				1524386A1EBE2C6200BDD466 /* MapiLokacijaViewController.swift */,
+				15C7716E1EBDB412005EAE36 /* InformaciiPoplakiViewController.swift */,
+				15C771721EBDBF25005EAE36 /* PopViewController.swift */,
+				1502CBD11EBA440D009E719E /* CameraViewController.swift */,
+				218A782B1EB0BAD400F54F9D /* GCDViewController.swift */,
+				B5352FDC1EBB49F6004B73C9 /* ContactViewController.swift */,
+				151234461EB92094007CA457 /* WeatherViewController.swift */,
+				151FB7171EBBB7D300DA5F95 /* TwitterViewController.swift */,
+				154787491EB919B90031685A /* HamburgerTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2103C5481EADE36F005AC1AF = {
+			isa = PBXGroup;
+			children = (
+				2103C5531EADE370005AC1AF /* Domashna SB */,
+				2103C5521EADE370005AC1AF /* Products */,
+				59B3F207455928DA896F269F /* Pods */,
+				0CB3185E64990E516F86563A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2103C5521EADE370005AC1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2103C5511EADE370005AC1AF /* Domashna SB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2103C5531EADE370005AC1AF /* Domashna SB */ = {
+			isa = PBXGroup;
+			children = (
+				152438691EBE2A9400BDD466 /* Controllers */,
+				2103C5541EADE370005AC1AF /* AppDelegate.swift */,
+				2103C5691EADE617005AC1AF /* ViewController.swift */,
+				2103C56A1EADE617005AC1AF /* Main.storyboard */,
+				2103C55E1EADE370005AC1AF /* Assets.xcassets */,
+				2103C5601EADE370005AC1AF /* LaunchScreen.storyboard */,
+				2103C56F1EADE65A005AC1AF /* Info.plist */,
+				2103C55B1EADE370005AC1AF /* Domashna_SB.xcdatamodeld */,
+			);
+			path = "Domashna SB";
+			sourceTree = "<group>";
+		};
+		21A454051EEB43B5003EA542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A4540B1EEB43B5003EA542 /* Alamofire.framework */,
+				21A4540D1EEB43B5003EA542 /* MMDrawerController.framework */,
+				21A4540F1EEB43B5003EA542 /* Pods_Domashna_SB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59B3F207455928DA896F269F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A454041EEB43B5003EA542 /* Pods.xcodeproj */,
+				B855B633AABB67024D419A54 /* Pods-Domashna SB.debug.xcconfig */,
+				EC63AF1776FBAC3EE3E8276B /* Pods-Domashna SB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2103C5501EADE36F005AC1AF /* Domashna SB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2103C5661EADE370005AC1AF /* Build configuration list for PBXNativeTarget "Domashna SB" */;
+			buildPhases = (
+				4595C78DB63317536F4AB669 /* [CP] Check Pods Manifest.lock */,
+				2103C54D1EADE36F005AC1AF /* Sources */,
+				2103C54E1EADE36F005AC1AF /* Frameworks */,
+				2103C54F1EADE36F005AC1AF /* Resources */,
+				A5D7C42675AFF60AE273A30C /* [CP] Embed Pods Frameworks */,
+				8DF36B9E5DAA9B60A3A1E7B4 /* [CP] Copy Pods Resources */,
+				151FB7161EBBB18F00DA5F95 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Domashna SB";
+			productName = "Domashna SB";
+			productReference = 2103C5511EADE370005AC1AF /* Domashna SB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2103C5491EADE36F005AC1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ljubomir Jankovikj";
+				TargetAttributes = {
+					2103C5501EADE36F005AC1AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 78SLAU59XT;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2103C54C1EADE36F005AC1AF /* Build configuration list for PBXProject "Domashna SB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2103C5481EADE36F005AC1AF;
+			productRefGroup = 2103C5521EADE370005AC1AF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21A454051EEB43B5003EA542 /* Products */;
+					ProjectRef = 21A454041EEB43B5003EA542 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2103C5501EADE36F005AC1AF /* Domashna SB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		21A4540B1EEB43B5003EA542 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 21A4540A1EEB43B5003EA542 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21A4540D1EEB43B5003EA542 /* MMDrawerController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMDrawerController.framework;
+			remoteRef = 21A4540C1EEB43B5003EA542 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21A4540F1EEB43B5003EA542 /* Pods_Domashna_SB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Domashna_SB.framework;
+			remoteRef = 21A4540E1EEB43B5003EA542 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2103C54F1EADE36F005AC1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2103C5621EADE370005AC1AF /* LaunchScreen.storyboard in Resources */,
+				2103C55F1EADE370005AC1AF /* Assets.xcassets in Resources */,
+				2103C56D1EADE617005AC1AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		151FB7161EBBB18F00DA5F95 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 41c4408bfc26aba464ebfd8830113d33f071621e 889a6289490d58b8b98e4967a852aeb78c47240ef9a476f721df759e06e8305f";
+		};
+		4595C78DB63317536F4AB669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF36B9E5DAA9B60A3A1E7B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Domashna SB/Pods-Domashna SB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D7C42675AFF60AE273A30C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Domashna SB/Pods-Domashna SB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2103C54D1EADE36F005AC1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C7716F1EBDB412005EAE36 /* InformaciiPoplakiViewController.swift in Sources */,
+				15C771731EBDBF25005EAE36 /* PopViewController.swift in Sources */,
+				1524386C1EBE2C6200BDD466 /* MapiLokacijaViewController.swift in Sources */,
+				151234471EB92094007CA457 /* WeatherViewController.swift in Sources */,
+				1547874A1EB919B90031685A /* HamburgerTableViewController.swift in Sources */,
+				1524386D1EBE2C6200BDD466 /* PinAnnotation.swift in Sources */,
+				1502CBD21EBA440D009E719E /* CameraViewController.swift in Sources */,
+				2103C5551EADE370005AC1AF /* AppDelegate.swift in Sources */,
+				B5352FDD1EBB49F6004B73C9 /* ContactViewController.swift in Sources */,
+				2103C56C1EADE617005AC1AF /* ViewController.swift in Sources */,
+				151FB7181EBBB7D300DA5F95 /* TwitterViewController.swift in Sources */,
+				2103C55D1EADE370005AC1AF /* Domashna_SB.xcdatamodeld in Sources */,
+				218A782C1EB0BAD400F54F9D /* GCDViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2103C5601EADE370005AC1AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2103C5611EADE370005AC1AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2103C5641EADE370005AC1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2103C5651EADE370005AC1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2103C5671EADE370005AC1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B855B633AABB67024D419A54 /* Pods-Domashna SB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 78SLAU59XT;
+				INFOPLIST_FILE = "Domashna SB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bs.Domashna-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2103C5681EADE370005AC1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC63AF1776FBAC3EE3E8276B /* Pods-Domashna SB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78SLAU59XT;
+				INFOPLIST_FILE = "Domashna SB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bs.Domashna-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2103C54C1EADE36F005AC1AF /* Build configuration list for PBXProject "Domashna SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2103C5641EADE370005AC1AF /* Debug */,
+				2103C5651EADE370005AC1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2103C5661EADE370005AC1AF /* Build configuration list for PBXNativeTarget "Domashna SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2103C5671EADE370005AC1AF /* Debug */,
+				2103C5681EADE370005AC1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2103C55B1EADE370005AC1AF /* Domashna_SB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2103C55C1EADE370005AC1AF /* Domashna_SB.xcdatamodel */,
+			);
+			currentVersion = 2103C55C1EADE370005AC1AF /* Domashna_SB.xcdatamodel */;
+			path = Domashna_SB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2103C5491EADE36F005AC1AF /* Project object */;
+}
